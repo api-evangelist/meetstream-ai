@@ -1,4 +1,4 @@
-# meetstream-ai
+# MeetStream.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-meetstream-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://meetstream.ai/
+MeetStream.ai provides a unified API and infrastructure platform that enables developers to build meeting bots for Zoom, Google Meet, Microsoft Teams, Webex, GoTo Meeting, Slack huddles, and WhatsApp calls. The service offers capabilities to join meetings, record audio and video per participant, transcribe content, and stream data programmatically, with pricing starting at $0.35 per bot‑hour and a $5 free credit. MeetStream.ai targets AI applications, CRM integrations, and automation workflows, delivering a single endpoint to simplify multi‑platform meeting automation.
+
+**Areas:** AI · Meetings · Video · Audio · Automation
+
+## MeetStream.ai on APIs.io
+
+Everything profiled for MeetStream.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/meetstream-ai/](https://apis.io/providers/meetstream-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [MeetStream.ai Bots API](https://apis.io/apis/meetstream-ai/meetstream-ai-bots-api/) — The bots API from MeetStream.ai — 22 operation(s) for bots.
+- [MeetStream.ai Calendar API](https://apis.io/apis/meetstream-ai/meetstream-ai-calendar-api/) — The calendar API from MeetStream.ai — 12 operation(s) for calendar.
+- [MeetStream.ai Google Login API](https://apis.io/apis/meetstream-ai/meetstream-ai-googlelogin-api/) — The googleLogin API from MeetStream.ai — 4 operation(s) for googlelogin.
+- [MeetStream.ai Mia API](https://apis.io/apis/meetstream-ai/meetstream-ai-mia-api/) — The mia API from MeetStream.ai — 2 operation(s) for mia.
+- [MeetStream.ai Teams Login API](https://apis.io/apis/meetstream-ai/meetstream-ai-teamslogin-api/) — The teamsLogin API from MeetStream.ai — 4 operation(s) for teamslogin.
+- [MeetStream.ai Transcription API](https://apis.io/apis/meetstream-ai/meetstream-ai-transcription-api/) — The transcription API from MeetStream.ai — 4 operation(s) for transcription.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Meetstream Ai Webhooks](https://apis.io/asyncapis/meetstream-ai/meetstream-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MeetStream.ai Agentic Access](https://apis.io/agentic-access/meetstream-ai/meetstream-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BotScreenshotsResponse](https://apis.io/schemas/meetstream-ai/meetstream-ai-bot-screenshots-response/)
+- [CalendarConnection](https://apis.io/schemas/meetstream-ai/meetstream-ai-calendar-connection/)
+- [CreateBotRequest](https://apis.io/schemas/meetstream-ai/meetstream-ai-create-bot-request/)
+- [GoogleLoginCreateRequest](https://apis.io/schemas/meetstream-ai/meetstream-ai-google-login-create-request/)
+- [MIACreateConfigRequest](https://apis.io/schemas/meetstream-ai/meetstream-ai-miacreate-config-request/)
+- [RemoveBotResponse](https://apis.io/schemas/meetstream-ai/meetstream-ai-remove-bot-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Meetstream Ai Context](https://apis.io/jsonld/meetstream-ai/meetstream-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MeetStream.ai API Rules](https://apis.io/rules/meetstream-ai/meetstream-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MeetStream.ai Authentication](https://apis.io/security/meetstream-ai/meetstream-ai-authentication/)
+- [MeetStream.ai Domain Security](https://apis.io/security/meetstream-ai/meetstream-ai-domain-security/)
+- [MeetStream.ai Trust Center](https://apis.io/security/meetstream-ai/meetstream-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MeetStream.ai Plans Pricing](https://apis.io/plans/meetstream-ai/meetstream-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://meetstream.ai/)
+- [Documentation](https://docs.meetstream.ai)
+- [Getting started](https://docs.meetstream.ai/guides/get-started/dashboard-setup)
+- [API reference](https://docs.meetstream.ai/api-reference/introduction)
+- [Pricing](https://meetstream.ai/pricing)
+- [Support](https://meetstream.ai/contact)
+- [Changelog](https://docs.meetstream.ai/guides/help/changelog)
+- [Blog](https://meetstream.ai/blog)
+- [Security](https://meetstream.ai/security)
+- [Compliance](https://trust.meetstream.ai/)
+- [Terms of service](https://meetstream.ai/terms-of-use)
+- [Privacy policy](https://meetstream.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 64.6** — strong · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 67.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 53.6 |
+
+**Agent readiness 67.7** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/meetstream-ai/](https://apis.io/providers/meetstream-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MeetStream.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/meetstream-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
